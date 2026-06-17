@@ -1,0 +1,78 @@
+{
+  "config_version": 1,
+  "min_supported_version_code": 1,
+  "force_update": false,
+  "update_url": "https://play.google.com/store/apps/details?id=pk.guide.bisp8171",
+  "maintenance": {
+    "enabled": false,
+    "message": ""
+  },
+
+  "ads": {
+    "enabled": true,
+    "test_mode": true,
+    "test_device_ids": [],
+    "banner_enabled": true,
+    "banner_ad_unit_id": "ca-app-pub-3940256099942544/9214589741",
+    "interstitial_enabled": true,
+    "interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
+    "interstitial_min_interval_seconds": 45,
+    "interstitial_every_n_navigations": 3,
+    "app_open_enabled": false,
+    "app_open_ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
+    "banner_screens": ["home", "faq", "centers", "sms", "web"]
+  },
+
+  "branding": {
+    "title": "Benazir Income Support",
+    "show_not_affiliated_badge": true,
+    "data_source_label": "Data Source: 8171.bisp.gov.pk",
+    "data_source_url": "https://8171.bisp.gov.pk/"
+  },
+
+  "links": {
+    "helpline_number": "0800-26477",
+    "share_message": "Check your Benazir Income Support (BISP 8171) eligibility easily. Download the app: https://play.google.com/store/apps/details?id=pk.guide.bisp8171",
+    "play_store_url": "https://play.google.com/store/apps/details?id=pk.guide.bisp8171",
+    "bills_app_url": "https://play.google.com/store/apps/details?id=com.example.pakanybillchecker"
+  },
+
+  "sms": {
+    "shortcode": "8171",
+    "message_template": "{cnic}"
+  },
+
+  "features": {
+    "show_web_card": true,
+    "show_sms_card": true,
+    "show_centers_card": true,
+    "show_faq_card": true,
+    "show_bills_card": true,
+    "centers_card_badge": "NEW",
+    "bills_card_badge": "NEW"
+  },
+
+  "web_portal": {
+    "url": "https://8171.bisp.gov.pk/",
+    "hide_selectors": [
+      "header",
+      "nav",
+      ".navbar",
+      "#header",
+      "footer",
+      ".footer",
+      "#footer",
+      "img[src*='banner']",
+      "img[src*='bisp_full_banner']",
+      ".copyright"
+    ],
+    "user_agent_append": "",
+    "allow_external_links": false,
+    "allowed_hosts": ["8171.bisp.gov.pk"]
+  },
+
+  "remote_data": {
+    "faqs_url": "",
+    "centers_url": ""
+  }
+}
