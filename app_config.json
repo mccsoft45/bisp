@@ -1,7 +1,7 @@
 {
   "config_version": 1,
   "min_supported_version_code": 1,
-  "force_update": false,
+  "force_update": true,
   "update_url": "https://play.google.com/store/apps/details?id=pk.guide.bisp8171",
   "maintenance": {
     "enabled": false,
