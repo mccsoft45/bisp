@@ -1,5 +1,5 @@
 {
-  "config_version": 1,
+  "config_version": 2,
   "min_supported_version_code": 1,
   "force_update": true,
   "update_url": "https://play.google.com/store/apps/details?id=pk.guide.bisp8171",
@@ -18,7 +18,7 @@
     "interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712",
     "interstitial_min_interval_seconds": 45,
     "interstitial_every_n_navigations": 3,
-    "app_open_enabled": false,
+    "app_open_enabled": true,
     "app_open_ad_unit_id": "ca-app-pub-3940256099942544/9257395921",
     "banner_screens": ["home", "faq", "centers", "sms", "web"]
   },
@@ -48,7 +48,7 @@
     "show_centers_card": true,
     "show_faq_card": true,
     "show_bills_card": true,
-    "centers_card_badge": "NEW",
+    "centers_card_badge": "OLD",
     "bills_card_badge": "NEW"
   },
 
